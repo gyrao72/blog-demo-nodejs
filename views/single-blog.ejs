@@ -1,0 +1,23 @@
+<%- include("particles/header") -%>
+
+
+    <div class="single-blog">
+            
+        <div class="blog-title">
+            <h2 style="font-size:43px;font-weight:700;"><%= blog.cTitle%></h2>
+        </div>    
+        <div class="post-info">
+            <p><span><%= blog.cName %>    </span>|<span id="timeHide">   <%= blog.createdAt %></span></p>
+        </div>  
+                
+        <div class="blog-content">
+            <p style="font-size: 20px;font-weight:300;">
+                <%= blog.cDesc %>
+            </p>
+        </div>    
+                     
+    </div>
+    
+    <%- include("particles/footer") -%>
+
+</body>

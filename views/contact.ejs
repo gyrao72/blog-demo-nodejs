@@ -1,0 +1,33 @@
+<%- include("particles/header") -%>
+
+
+    <div class="main contact-us">
+        <div class="col-1-2 qMessg">
+            <h2>Get In Touch with Us</h3>
+
+            <button type="button" class="my-btn con-btn"><a href="mailto:gyrao72@gmail.com">Message US</a></button> 
+        </div>    
+        
+        <h3 id="or-display">(OR)</h3>
+
+        <div class="col-1-2 qDetail">
+            <h2>Submit your Queries Here</h2>
+
+            <form action="/contact" method="POST" class="qForm">
+                <input type="text" name="qFname" placeholder="Full Name" required autocomplete="off"><br>
+                <input type="email" name="qEmail" placeholder="E-Mail Address" required autocomplete="off"><br>
+                <textarea name="qDesc" required autocomplete="off" placeholder="Description"></textarea><br>
+                <button type="submit" class="my-btn sub-btn">Submit</button>
+            </form>
+        </div>    
+
+    </div>
+    
+    <%- include("particles/footer") -%>
+
+</body>
+
+
+
+
+

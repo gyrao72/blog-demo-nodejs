@@ -1,0 +1,38 @@
+<footer>
+    <div class="social">
+        <a href="https://twitter.com/gyrao01" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/gy_rao72/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/gajender.rao.528" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://github.com/gyrao72" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+        <a href="https://in.pinterest.com/gajenderrao528/" target="_blank"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/gajender-yadav-025b00165" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+    </div>
+
+    <div class="copyright">
+        <small>&copy;Gajendar Yadav</small>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-icon").on("click", function() {
+              $("nav ul").toggleClass("showing");
+        });
+  });
+
+  // Scrolling Effect
+
+  $(window).on("scroll", function() {
+        if($(window).scrollTop()) {
+              $('nav').addClass('black');
+        }
+
+        else {
+              $('nav').removeClass('black');
+        }
+  });
+</script>      

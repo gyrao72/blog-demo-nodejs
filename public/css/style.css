@@ -1,0 +1,653 @@
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+
+/* Custom CSS */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+body {
+    background-color: #E4E9FD;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    height: 100%;
+    min-height: 100%;
+}
+
+.main{
+    height: 100%;
+}
+
+
+/* NAVBAR */
+
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #40514e;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.logo:hover{
+    color:#d92027 ;
+    transition: 1s;
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: #1fb5a8;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+nav ul li a:hover{
+    color: #000;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #4be7d2b1;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #40514e;
+    display: none;
+}
+
+
+.title{
+    text-align: center;
+    padding-top:270px;
+}
+
+.title h1{
+    font-size: 4rem;
+    letter-spacing: 1.5px;
+    font-weight: 1000;
+    color: #00b8a9;
+}
+
+.title h3{
+    padding-top: 60px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color:4be7d2b1;
+}
+
+
+/* About US */
+
+
+.about-us{
+    width: 80%;
+    padding: 90px 0;
+    text-align: center;
+    margin: auto;
+}
+
+.about-us h1{
+    padding: 30px 0;
+    font-size: 3rem;
+}
+
+.about-us p{
+    text-align: left;
+    margin:0 50px;
+    font-size: 1.2rem;
+}
+
+
+/* contact US */
+
+#or-display{
+    display: none;
+}
+
+
+.contact-us{
+    padding: 90px 0;
+    text-align: center;
+}
+
+
+.col-1-2{
+    width:50%;
+    margin-top: 10px;
+}
+
+.qMessg{
+    float: left;
+    padding-top: 100px;
+}
+
+.qDetail{
+    float: right;
+    padding-top: 100px;
+}
+
+.my-btn{
+    padding:9px 12px;
+    border: transparent;
+    border-radius: 3px;
+    background-color:#00b8a9 ;
+    color: #fff;
+    font-size: 20px;
+    width:25%;
+}
+
+.con-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.con-btn:hover{
+    background-color: #fff;
+    border:#00b8a9;
+    transition: 0.4s;
+}
+.con-btn:hover a{
+    background-color: #fff;
+    border:#00b8a9;
+    color: #00b8a9;
+    transition: 0.6s;
+}
+
+.sub-btn{
+    margin: 5px 0;
+}
+
+.sub-btn:hover{
+    background-color: #fff;
+    border:#00b8a9;
+    color: #00b8a9;
+    transition: 0.6s;
+}
+
+.contact-us h2{
+    font-size: 2.5rem;
+    padding: 20px 0;
+}
+
+.qDetail form textarea{
+    height:150px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    border:1px solid #00b8a9;
+    border-radius: 3px;
+} 
+
+
+
+.jumbotron{
+    padding: 200px 0 270px 0;
+    margin: auto 50px;
+}
+
+
+/* Blogs */
+
+
+
+.blog-create-btn{
+    width: 10%;
+    padding:10px 20px;
+}
+
+
+.blogs-main{
+   padding:100px 50px 50px 50px;
+}
+
+.single-blog{
+    padding:170px 150px 100px 150px;
+}
+
+.blog-header{
+    text-align: right;
+}
+
+.blog-post{
+    padding-top: 20px;
+    width:60%;
+    margin: auto;
+}
+
+.blog-title{
+    float: left;
+}
+
+.post-info{
+    float:right;
+}
+.post-info p{
+    padding-top: 14px;
+    font-size: 10px;
+}
+
+.blog-content{
+    float: none;
+    padding: 60px 0 10px 0;
+}
+
+
+/* Compose Blog */
+
+
+.com-blog{
+    padding-top:100px ;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.cInput{
+    padding: 70px 50px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+input[type="text"],input[type="email"] {
+    text-align: center;
+    height: 45px;
+    top: 10px;
+    border:1px solid #00b8a9;
+    font-size: 20px;
+    font-weight: 200;
+    width: 400px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #00b8a9;
+  }
+
+  input[type="email"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #00b8a9;
+  }
+
+.cInput form textarea{
+    height:150px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    border:1px solid #00b8a9;
+    border-radius: 3px;
+} 
+
+.cInput form textarea:focus{
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #00b8a9;
+}
+
+
+/* Footer */
+
+
+/* footer{ 
+    bottom: 0;
+    background-color: #fff;
+    padding: 30px 0;
+    width: 100%;
+    text-align: center;
+} */
+
+footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+    background-color: #fff;
+    position: fixed;
+    padding:15px 0 ;
+}
+
+.social a{
+    font-size: 2rem;
+    padding: 0 25px;
+    color:#00b8a9;
+}
+
+.social a:hover{
+    color:rgba(0, 0, 0, 0.496);
+    transition: 1s;
+}
+
+
+
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background:  #1fb5a8;
+    }
+
+    nav.black ul {
+          background: #1fb5a8;
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    nav ul li a:hover{
+        color: #d92027;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+    .blog-create-btn{
+        width: auto;
+        padding:10px 20px;
+    }
+
+    .my-btn{
+        width:300px;
+    }
+    
+    .col-1-2{
+        width:85%;
+        margin-top: 3px;
+        text-align: center;
+    }
+    
+    .qMessg,.qDetail{
+        float: none;
+        padding-top:70px;
+        padding-left: 100px;
+    }
+
+    #or-display{
+        display: inherit;
+        margin:70px 0 10px 0;
+    }
+
+    #timeHide{
+        display: none;
+    }
+
+    .title{
+        padding-top:350px;
+    }
+
+    .blogs-main{
+        padding:130px 50px 50px 50px;
+    }
+    
+    .blog-post{
+        padding-top: 30px;
+        width:85%;
+    }
+     
+    .blog-create-btn{
+        margin-right: 45px;
+        width: 200px;
+        padding:10px 20px;
+    }
+
+    .com-blog{
+        padding-top:200px ;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    
+    .cInput{
+        padding: 70px 10px;
+        padding-bottom: 120px;
+        text-align: center;
+    }
+
+    .com-blog h1{
+        font-size: 45px;
+        margin: auto;
+    }
+    
+
+    .about-us{
+        padding: 90px 0 90px 100px;
+        text-align: center;
+        width: 85%;
+    }
+    
+    .about-us h1{
+        padding: 100px 0 50px 0;
+        font-size: 4rem;
+    }
+    
+    .about-us p{
+        font-size: 1.3rem;
+    }
+}
+
+
+@media screen and (max-width: 485px){
+    .logo {
+        font-size: 2rem;
+    }
+    
+    .title{
+        padding:250px 30px 0 10px;
+        
+    }
+
+    .title h1{
+        font-size: 3rem;
+        letter-spacing: 1.3px;
+    }
+    
+    .title h3{
+        font-size: 1.7rem;
+    }
+
+    .my-btn{
+      width:260px;
+    }
+  
+    #or-display{
+      display: inherit;
+      margin:30px 0 10px 0;
+    }
+
+    .blogs-main{
+      padding:130px 10px 30px 10px;
+    }
+  
+    .blog-post{
+      padding-top: 50px;
+      width:95%;
+    }
+   
+    .blog-create-btn{
+      margin-right: 20px;
+      width: 100%;
+      padding:10px 10px;
+    }
+
+    .com-blog{
+        padding-top:200px ;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    
+    .cInput{
+        padding: 30px 10px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .com-blog h1{
+        font-size: 30px;
+    }
+  
+
+    .about-us{
+      margin:0 10px;
+      padding: 90px 10px 90px 10px;
+      width: 95%;
+      text-align: center;
+    }
+  
+    .about-us h1{
+        margin: auto;
+      padding: 100px 0 50px 0;
+      font-size: 3rem;
+    }
+  
+    .about-us p{
+        margin: auto;
+      font-size: 1rem;
+    }
+
+    .contact-us{
+        padding: 90px 0;
+        text-align: center;
+    }
+    
+    .col-1-2{
+        width:95%;
+        margin-top: 3px;
+        text-align: center;
+      }
+    
+      .qMessg,.qDetail{
+        padding-top:20px;
+        padding:0 10px;
+      }  
+      
+    .qDetail h2,.qMessg h2{
+        font-size: 2rem;
+    }
+
+    .qDetail form textarea{
+        height:80px;
+        width: 380px;
+    } 
+
+    .cInput form textarea{
+        width: 380px;
+    } 
+
+    input[type="text"],input[type="email"] {
+        width: 380px;
+      }
+
+    .social a{
+        font-size: 1.5rem;
+        padding: 0 15px;
+    }
+       
+}  
+
+
+
+
+
+
+
+
+
+/* footer{
+
+    margin: 40rem auto;
+    padding: 3rem;
+    background-color: #ffe0f7;
+    
+} */
+
+
+
+
+
+
+ /* font-family: 'Antic Slab', serif;
+
+font-family: 'Mulish', sans-serif;
+
+font-family: 'Nunito', sans-serif; */

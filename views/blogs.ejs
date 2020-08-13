@@ -1,0 +1,36 @@
+<%- include("particles/header") -%>
+
+
+    <div class="blogs-main">
+        <div class="blog-header">
+            <button class="my-btn con-btn blog-create-btn"><a href="/blogs/compose">Create your Blog</a></button>
+        </div> 
+
+        <div class="blog-post">
+            
+            <% if(blogs.length > 0) {  %>
+                <% blogs.forEach(blog => { %>
+                <div class="blog-title">
+                    <h2 style="font-size:35px;font-weight:700;"><%= blog.cTitle%></h2>
+                </div>    
+                <div class="post-info">
+                    <p><span><%= blog.cName %>    </span>|<span id="timeHide">   <%= blog.createdAt %></span></p>
+                </div>  
+                
+                <div class="blog-content">
+                    <p style="font-size: 15px;font-weight:300;">
+                        <%= blog.cDesc.substring(0,105)+" ....." %><a href="/blogs/<%= blog._id %>">Read More.</a>
+                    </p>
+                </div>    
+                <hr>
+                <% }) %>  
+            <% } else { %>
+                <p style="font-size: 25px;">There are no Blogs to display...</p>
+            <% } %>      
+        </div>
+
+    </div>
+    
+    <%- include("particles/footer") -%>
+
+</body>
